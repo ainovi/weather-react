@@ -55,12 +55,17 @@ h1 {
 }
 
 .units {
-  position: relative;
+  margin: auto;
+  padding-left: 150px;
   font-size: 16px;
-  top: -34px;
+  top: -64px;
+  display: block;
+  position: relative;
+  width: 50%;
 }
 
 .active {
+  margin: auto;
   color: black;
   cursor: default;
   text-decoration: none;
@@ -72,7 +77,6 @@ h1 {
 
 .weather-forecast {
   margin-top: 20px;
-
   text-align: center;
 }
 

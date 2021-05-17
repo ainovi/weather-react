@@ -11,11 +11,9 @@ export default function Weather() {
           //className="main-image"
           src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
         />
-        <strong className="main-temp" id="temperature"></strong>
-        <span className="units">
-          <div className="active">°C </div>/<div className="active">°F</div>
-        </span>
       </div>
+      <strong className="main-temp" id="temperature"></strong>
+      <div className="units">°C / °F</div>
       <div className="col-6">
         <ul>
           <li>
