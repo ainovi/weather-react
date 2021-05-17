@@ -1,14 +1,25 @@
-import logo from "./logo.svg";
-import "./App.css";
+import Searchbox from "./Searchbox.js";
+import Cityname from "./Cityname.js";
+import Weather from "./Weather.js";
+import Footer from "./Footer.js";
 
-function App() {
+import "./styles.css";
+
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Hello world</h1>
-      </header>
+      <div className="container">
+        <div className="weather-app-wrapper">
+          <div className="weather-app">
+            <Searchbox />
+            <Cityname />
+            <Weather />
+            <Footer />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
 
-export default App;
+//export default App;
